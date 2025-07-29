@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02BDFB232E38DB4F009C193B /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDFB182E38DB4F009C193B /* ActivityCard.swift */; };
+		02BDFB242E38DB4F009C193B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDFB1A2E38DB4F009C193B /* ContentView.swift */; };
+		02BDFB252E38DB4F009C193B /* FitnessTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDFB1B2E38DB4F009C193B /* FitnessTabView.swift */; };
+		02BDFB262E38DB4F009C193B /* FitSharkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDFB1C2E38DB4F009C193B /* FitSharkApp.swift */; };
+		02BDFB272E38DB4F009C193B /* HistoricDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDFB1D2E38DB4F009C193B /* HistoricDataView.swift */; };
+		02BDFB282E38DB4F009C193B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDFB1E2E38DB4F009C193B /* HomeView.swift */; };
+		02BDFB292E38DB4F009C193B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDFB1F2E38DB4F009C193B /* HomeViewModel.swift */; };
+		02BDFB2A2E38DB4F009C193B /* ProgessCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDFB202E38DB4F009C193B /* ProgessCircleView.swift */; };
+		02BDFB2B2E38DB4F009C193B /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDFB212E38DB4F009C193B /* WorkoutCard.swift */; };
+		02BDFB2C2E38DB4F009C193B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BDFB162E38DB4F009C193B /* Preview Assets.xcassets */; };
+		02BDFB2D2E38DB4F009C193B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BDFB192E38DB4F009C193B /* Assets.xcassets */; };
+		02BDFB2F2E38DBE9009C193B /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDFB2E2E38DBE9009C193B /* ActivityModel.swift */; };
+		02BDFB312E38DC14009C193B /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDFB302E38DC14009C193B /* WorkoutModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02D15CD32DE7013200377CE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02D15CBA2DE7013000377CE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02D15CC12DE7013000377CE1;
+			remoteInfo = FitShark;
+		};
+		02D15CDD2DE7013200377CE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02D15CBA2DE7013000377CE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02D15CC12DE7013000377CE1;
+			remoteInfo = FitShark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BDFB162E38DB4F009C193B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02BDFB182E38DB4F009C193B /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		02BDFB192E38DB4F009C193B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02BDFB1A2E38DB4F009C193B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02BDFB1B2E38DB4F009C193B /* FitnessTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTabView.swift; sourceTree = "<group>"; };
+		02BDFB1C2E38DB4F009C193B /* FitSharkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitSharkApp.swift; sourceTree = "<group>"; };
+		02BDFB1D2E38DB4F009C193B /* HistoricDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricDataView.swift; sourceTree = "<group>"; };
+		02BDFB1E2E38DB4F009C193B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		02BDFB1F2E38DB4F009C193B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		02BDFB202E38DB4F009C193B /* ProgessCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgessCircleView.swift; sourceTree = "<group>"; };
+		02BDFB212E38DB4F009C193B /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
+		02BDFB2E2E38DBE9009C193B /* ActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
+		02BDFB302E38DC14009C193B /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		02D15CC22DE7013000377CE1 /* FitShark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitShark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D15CD22DE7013200377CE1 /* FitSharkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitSharkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D15CDC2DE7013200377CE1 /* FitSharkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitSharkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		02D15CD52DE7013200377CE1 /* FitSharkTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FitSharkTests;
+			sourceTree = "<group>";
+		};
+		02D15CDF2DE7013200377CE1 /* FitSharkUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FitSharkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02D15CBF2DE7013000377CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D15CCF2DE7013200377CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D15CD92DE7013200377CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02BDFB122E38DB4F009C193B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02BDFB2E2E38DBE9009C193B /* ActivityModel.swift */,
+				02BDFB302E38DC14009C193B /* WorkoutModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		02BDFB132E38DB4F009C193B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				02BDFB1F2E38DB4F009C193B /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		02BDFB142E38DB4F009C193B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02BDFB212E38DB4F009C193B /* WorkoutCard.swift */,
+				02BDFB182E38DB4F009C193B /* ActivityCard.swift */,
+				02BDFB1E2E38DB4F009C193B /* HomeView.swift */,
+				02BDFB202E38DB4F009C193B /* ProgessCircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02BDFB152E38DB4F009C193B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				02BDFB122E38DB4F009C193B /* Models */,
+				02BDFB132E38DB4F009C193B /* ViewModels */,
+				02BDFB142E38DB4F009C193B /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		02BDFB172E38DB4F009C193B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02BDFB162E38DB4F009C193B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02BDFB222E38DB4F009C193B /* FitShark */ = {
+			isa = PBXGroup;
+			children = (
+				02BDFB152E38DB4F009C193B /* Home */,
+				02BDFB172E38DB4F009C193B /* Preview Content */,
+				02BDFB192E38DB4F009C193B /* Assets.xcassets */,
+				02BDFB1A2E38DB4F009C193B /* ContentView.swift */,
+				02BDFB1B2E38DB4F009C193B /* FitnessTabView.swift */,
+				02BDFB1C2E38DB4F009C193B /* FitSharkApp.swift */,
+				02BDFB1D2E38DB4F009C193B /* HistoricDataView.swift */,
+			);
+			path = FitShark;
+			sourceTree = "<group>";
+		};
+		02D15CB92DE7013000377CE1 = {
+			isa = PBXGroup;
+			children = (
+				02BDFB222E38DB4F009C193B /* FitShark */,
+				02D15CD52DE7013200377CE1 /* FitSharkTests */,
+				02D15CDF2DE7013200377CE1 /* FitSharkUITests */,
+				02D15CC32DE7013000377CE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02D15CC32DE7013000377CE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02D15CC22DE7013000377CE1 /* FitShark.app */,
+				02D15CD22DE7013200377CE1 /* FitSharkTests.xctest */,
+				02D15CDC2DE7013200377CE1 /* FitSharkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02D15CC12DE7013000377CE1 /* FitShark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D15CE62DE7013200377CE1 /* Build configuration list for PBXNativeTarget "FitShark" */;
+			buildPhases = (
+				02D15CBE2DE7013000377CE1 /* Sources */,
+				02D15CBF2DE7013000377CE1 /* Frameworks */,
+				02D15CC02DE7013000377CE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitShark;
+			packageProductDependencies = (
+			);
+			productName = FitShark;
+			productReference = 02D15CC22DE7013000377CE1 /* FitShark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02D15CD12DE7013200377CE1 /* FitSharkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D15CE92DE7013200377CE1 /* Build configuration list for PBXNativeTarget "FitSharkTests" */;
+			buildPhases = (
+				02D15CCE2DE7013200377CE1 /* Sources */,
+				02D15CCF2DE7013200377CE1 /* Frameworks */,
+				02D15CD02DE7013200377CE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D15CD42DE7013200377CE1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				02D15CD52DE7013200377CE1 /* FitSharkTests */,
+			);
+			name = FitSharkTests;
+			packageProductDependencies = (
+			);
+			productName = FitSharkTests;
+			productReference = 02D15CD22DE7013200377CE1 /* FitSharkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02D15CDB2DE7013200377CE1 /* FitSharkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D15CEC2DE7013200377CE1 /* Build configuration list for PBXNativeTarget "FitSharkUITests" */;
+			buildPhases = (
+				02D15CD82DE7013200377CE1 /* Sources */,
+				02D15CD92DE7013200377CE1 /* Frameworks */,
+				02D15CDA2DE7013200377CE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D15CDE2DE7013200377CE1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				02D15CDF2DE7013200377CE1 /* FitSharkUITests */,
+			);
+			name = FitSharkUITests;
+			packageProductDependencies = (
+			);
+			productName = FitSharkUITests;
+			productReference = 02D15CDC2DE7013200377CE1 /* FitSharkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02D15CBA2DE7013000377CE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					02D15CC12DE7013000377CE1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					02D15CD12DE7013200377CE1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 02D15CC12DE7013000377CE1;
+					};
+					02D15CDB2DE7013200377CE1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 02D15CC12DE7013000377CE1;
+					};
+				};
+			};
+			buildConfigurationList = 02D15CBD2DE7013000377CE1 /* Build configuration list for PBXProject "FitShark" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02D15CB92DE7013000377CE1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 02D15CC32DE7013000377CE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02D15CC12DE7013000377CE1 /* FitShark */,
+				02D15CD12DE7013200377CE1 /* FitSharkTests */,
+				02D15CDB2DE7013200377CE1 /* FitSharkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02D15CC02DE7013000377CE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BDFB2C2E38DB4F009C193B /* Preview Assets.xcassets in Resources */,
+				02BDFB2D2E38DB4F009C193B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D15CD02DE7013200377CE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D15CDA2DE7013200377CE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D15CBE2DE7013000377CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BDFB2F2E38DBE9009C193B /* ActivityModel.swift in Sources */,
+				02BDFB232E38DB4F009C193B /* ActivityCard.swift in Sources */,
+				02BDFB242E38DB4F009C193B /* ContentView.swift in Sources */,
+				02BDFB252E38DB4F009C193B /* FitnessTabView.swift in Sources */,
+				02BDFB262E38DB4F009C193B /* FitSharkApp.swift in Sources */,
+				02BDFB272E38DB4F009C193B /* HistoricDataView.swift in Sources */,
+				02BDFB312E38DC14009C193B /* WorkoutModel.swift in Sources */,
+				02BDFB282E38DB4F009C193B /* HomeView.swift in Sources */,
+				02BDFB292E38DB4F009C193B /* HomeViewModel.swift in Sources */,
+				02BDFB2A2E38DB4F009C193B /* ProgessCircleView.swift in Sources */,
+				02BDFB2B2E38DB4F009C193B /* WorkoutCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D15CCE2DE7013200377CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D15CD82DE7013200377CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02D15CD42DE7013200377CE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02D15CC12DE7013000377CE1 /* FitShark */;
+			targetProxy = 02D15CD32DE7013200377CE1 /* PBXContainerItemProxy */;
+		};
+		02D15CDE2DE7013200377CE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02D15CC12DE7013000377CE1 /* FitShark */;
+			targetProxy = 02D15CDD2DE7013200377CE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D15CE42DE7013200377CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02D15CE52DE7013200377CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02D15CE72DE7013200377CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitShark/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anshuman.FitShark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02D15CE82DE7013200377CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitShark/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anshuman.FitShark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02D15CEA2DE7013200377CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anshuman.FitSharkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitShark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitShark";
+			};
+			name = Debug;
+		};
+		02D15CEB2DE7013200377CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anshuman.FitSharkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitShark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitShark";
+			};
+			name = Release;
+		};
+		02D15CED2DE7013200377CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anshuman.FitSharkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitShark;
+			};
+			name = Debug;
+		};
+		02D15CEE2DE7013200377CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anshuman.FitSharkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitShark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D15CBD2DE7013000377CE1 /* Build configuration list for PBXProject "FitShark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D15CE42DE7013200377CE1 /* Debug */,
+				02D15CE52DE7013200377CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D15CE62DE7013200377CE1 /* Build configuration list for PBXNativeTarget "FitShark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D15CE72DE7013200377CE1 /* Debug */,
+				02D15CE82DE7013200377CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D15CE92DE7013200377CE1 /* Build configuration list for PBXNativeTarget "FitSharkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D15CEA2DE7013200377CE1 /* Debug */,
+				02D15CEB2DE7013200377CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D15CEC2DE7013200377CE1 /* Build configuration list for PBXNativeTarget "FitSharkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D15CED2DE7013200377CE1 /* Debug */,
+				02D15CEE2DE7013200377CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02D15CBA2DE7013000377CE1 /* Project object */;
+}
